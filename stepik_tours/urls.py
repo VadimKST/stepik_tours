@@ -14,6 +14,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.urls import path
+
 import tours.views as tours_views
 from tours.views import custom_handler404, custom_handler500
 
